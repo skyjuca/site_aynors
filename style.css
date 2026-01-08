@@ -13,13 +13,14 @@ h1 {
     text-align: center;
 }
 
-p{
+p {
     font-size: 30px;
     text-align: center;
-    display: flex;
-    justify-content: center; /* centre horizontalement */
-    align-items: center; 
+    max-width: 800px; /* limite la largeur pour rester lisible */
+    margin: 20px auto; /* centre horizontalement le bloc et ajoute un peu de marge */
+    line-height: 1.5;  /* meilleure lisibilité */
 }
+
 
 /* Animation douce du dégradé */
 @keyframes gradientShift {
@@ -137,6 +138,7 @@ footer {
     display: block;
     margin: 0 auto;        /* centre horizontalement */
 }
+
 
 
 

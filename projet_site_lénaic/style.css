@@ -1,0 +1,128 @@
+/* Corps de la page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    /* Dégradé pastel violet-bleu-vert avec flou */
+    background: linear-gradient(90deg, #ff00f2, #000dff, #62e799);
+    background-size: 400% 400%;
+    animation: gradientShift 10s ease infinite;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Animation douce du dégradé */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.3); /* Légèrement transparent pour faire ressortir le titre */
+    border-radius: 0 0 25px 25px;
+    backdrop-filter: blur(10px);
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 10px;
+    color: #eeeeee;
+}
+
+/* Contenu principal */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/* Encadré arrondi */
+.social-box {
+    background: rgba(0, 0, 0, 0.3); /* Transparence pour fond pastel visible */
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    text-align: center;
+    width: 400px;
+    backdrop-filter: blur(10px); /* Flou léger du fond */
+    transition: transform 0.3s ease;
+}
+
+.social-box:hover {
+    transform: scale(1.03);
+}
+
+.social-box h2 {
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+/* Liens réseaux */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Couleurs réseaux */
+.youtube {
+    background: #ff0000;
+}
+
+.tiktok {
+    background: linear-gradient(135deg, #25f4ee, #fe2c55);
+}
+
+.twitch {
+    background: #9146ff;
+}
+
+.discord {
+    background-color: #1908A8;
+}
+
+/* Hover effet */
+.social-links a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    background: rgba(0,0,0,0.2);
+    color: #eee;
+    font-size: 14px;
+    backdrop-filter: blur(5px);
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

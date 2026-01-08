@@ -16,6 +16,9 @@ h1 {
 h2 {
     font-size: 30px;
     text-align: center;
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+    align-items: center; 
 }
 
 /* Animation douce du dégradé */
@@ -134,5 +137,6 @@ footer {
     display: block;
     margin: 0 auto;        /* centre horizontalement */
 }
+
 
 

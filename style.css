@@ -7,12 +7,6 @@ body {
     background: linear-gradient(90deg, #ff00f2, #000dff, #62e799);
     background-size: 400% 400%;
     animation: gradientShift 10s ease infinite;
-
-    display: flex;
-    flex-direction: column;  /* empile verticalement image, h1, p, main */
-    align-items: center;     /* centre horizontalement */
-    justify-content: center; /* centre verticalement */
-    min-height: 100vh;       /* hauteur = 100% de la fenêtre */
     text-align: center;      /* texte centré */
 }
 
@@ -20,12 +14,20 @@ h1 {
     text-align: center;
 }
 
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;        /* centre horizontalement */
+    justify-content: center;    /* centre verticalement */
+    min-height: 70vh;           /* 70% de la fenêtre pour laisser place au footer et social-box */
+    gap: 20px;                  /* espace entre image, h1 et p */
+}
+
 p {
     font-size: 30px;
-    text-align: center;
-    max-width: 800px; /* limite la largeur pour rester lisible */
-    margin: 20px auto; /* centre horizontalement le bloc et ajoute un peu de marge */
-    line-height: 1.5;  /* meilleure lisibilité */
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
 }
 
 
@@ -145,6 +147,7 @@ footer {
     display: block;
     margin: 0 auto;        /* centre horizontalement */
 }
+
 
 
 

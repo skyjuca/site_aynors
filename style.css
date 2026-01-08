@@ -128,7 +128,7 @@ footer {
     width: 200px;      /* largeur égale */
     height: 200px;     /* hauteur égale */
     border-radius: 50%;
-    object-fit: cover; /* pour que l'image remplisse le cadre */
 }
+
 
 

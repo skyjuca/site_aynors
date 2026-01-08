@@ -13,6 +13,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 /* Animation douce du dégradé */
 @keyframes gradientShift {
     0% { background-position: 0% 50%; }
@@ -129,3 +133,4 @@ footer {
     display: block;
     margin: 0 auto;        /* centre horizontalement */
 }
+

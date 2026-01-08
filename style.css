@@ -7,6 +7,13 @@ body {
     background: linear-gradient(90deg, #ff00f2, #000dff, #62e799);
     background-size: 400% 400%;
     animation: gradientShift 10s ease infinite;
+
+    display: flex;
+    flex-direction: column;  /* empile verticalement image, h1, p, main */
+    align-items: center;     /* centre horizontalement */
+    justify-content: center; /* centre verticalement */
+    min-height: 100vh;       /* hauteur = 100% de la fenêtre */
+    text-align: center;      /* texte centré */
 }
 
 h1 {
@@ -138,6 +145,7 @@ footer {
     display: block;
     margin: 0 auto;        /* centre horizontalement */
 }
+
 
 
 

@@ -121,13 +121,19 @@ footer {
     backdrop-filter: blur(5px);
 }
 
+/* Centrer et rendre l'image ronde */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
 .centre {
+    width: 150px;          /* taille fixe ou responsive selon besoin */
+    height: 150px;         /* hauteur = largeur pour cercle parfait */
+    border-radius: 50%;    /* rend l'image ronde */
+    object-fit: cover;     /* recadre l'image pour remplir le cercle */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;      /* largeur égale */
-    height: 200px;     /* hauteur égale */
-    border-radius: 50%;
 }
 
 

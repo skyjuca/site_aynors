@@ -146,6 +146,7 @@ footer {
     object-fit: cover;     /* recadre l'image sans la déformer */
     display: block;
     margin: 0 auto;        /* centre horizontalement */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.4); /* OMBRE DOUCE */
 }
 
 
@@ -201,4 +202,5 @@ footer {
         padding: 10px;
     }
 }
+
 

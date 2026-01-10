@@ -33,7 +33,7 @@ h1 {
 p {
     font-size: clamp(15px, 2.5vw, 22px);
     max-width: 750px;
-    margin: 0 auto;
+    margin: 0;
     line-height: 1.5;
 }
 
@@ -237,6 +237,7 @@ footer {
         border-radius: 15px;
     }
 }
+
 
 
 

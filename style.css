@@ -169,5 +169,7 @@ p {
     .page-wrapper {
         min-height: 100svh;  /* utilise toute la hauteur réelle du mobile */
         justify-content: space-evenly;
+    }
 }
+
 

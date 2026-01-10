@@ -11,8 +11,11 @@ body {
 }
 
 h1 {
+    font-size: clamp(26px, 4vw, 42px);
+    margin: 0;
     text-align: center;
 }
+
 
 .center-content {
     display: flex;
@@ -234,6 +237,7 @@ footer {
         border-radius: 15px;
     }
 }
+
 
 
 

@@ -67,8 +67,9 @@ header p {
 main {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    padding: 20px 20px 60px;
 }
+
 
 /* Encadré arrondi */
 .social-box {
@@ -213,6 +214,7 @@ footer {
         border-radius: 15px;
     }
 }
+
 
 
 

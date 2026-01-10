@@ -173,3 +173,50 @@ main {
         border-radius: 14px;
     }
 }
+
+/* ------------------ TABLETTE (iPad) ------------------ */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    body {
+        padding: 0;
+    }
+
+    /* On force le centrage général */
+    .center-content {
+        align-items: center;
+        justify-content: center;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    p {
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        padding: 30px 20px 60px;
+    }
+
+    .social-box {
+        margin: 0 auto;          /* centre le bloc */
+        width: 420px;
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .social-links {
+        align-items: center;     /* centre les boutons */
+    }
+
+    .social-links a {
+        width: 100%;             /* boutons bien alignés */
+        max-width: 360px;
+        margin: 0 auto;
+    }
+}
+
+

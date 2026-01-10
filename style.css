@@ -105,13 +105,14 @@ main {
 
 .social-links a {
     text-decoration: none;
-    padding: 14px;
+    padding: 16px;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: clamp(15px, 2vw, 18px);
     font-weight: bold;
     color: white;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 
 /* Couleurs réseaux */
 .youtube {
@@ -219,6 +220,7 @@ footer {
         border-radius: 15px;
     }
 }
+
 
 
 

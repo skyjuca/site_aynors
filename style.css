@@ -73,15 +73,19 @@ main {
 
 /* Encadré arrondi */
 .social-box {
-    background: rgba(0, 0, 0, 0.3); /* Transparence pour fond pastel visible */
-    padding: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px;
     border-radius: 25px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.4);
     text-align: center;
-    width: 400px;
-    backdrop-filter: blur(10px); /* Flou léger du fond */
+
+    width: 100%;
+    max-width: 380px;
+
+    backdrop-filter: blur(10px);
     transition: transform 0.3s ease;
 }
+
 
 .social-box:hover {
     transform: scale(1.03);
@@ -214,6 +218,7 @@ footer {
         border-radius: 15px;
     }
 }
+
 
 
 

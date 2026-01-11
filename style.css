@@ -82,7 +82,7 @@ main {
 .social-links {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px;    
 }
 
 .social-links a {
@@ -92,7 +92,7 @@ main {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Couleurs réseaux */
@@ -114,9 +114,10 @@ main {
 
 /* Hover effet */
 .social-links a:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+    box-shadow: 0 0 2Opx rgba(255, 255, 255, 0.5);
 }
+
 
 /* ------------------ RESPONSIVE MOBILE ------------------ */
 @media (max-width: 768px) {
@@ -218,5 +219,3 @@ main {
         margin: 0 auto;
     }
 }
-
-

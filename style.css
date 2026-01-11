@@ -97,24 +97,25 @@ main {
 
 /* Couleurs réseaux */
 .youtube {
-    background: #ff0000;
+    background: linear-gradient(135deg, #FF0000, #282828);
 }
 
 .tiktok {
-    background: linear-gradient(135deg, #25f4ee, #fe2c55);
+    background: linear-gradient(135deg, #000000, #FE2C55, #25F4EE);
 }
 
 .twitch {
-    background: #9146ff;
+    background: linear-gradient(135deg, #8956FB, #6F3FE3); /* violet vers plus foncé */
 }
 
 .discord {
-    background-color: #1908A8;
+    background: linear-gradient(135deg, #5865F2, #57F287); /* blurple vers vert accent */
 }
 
 .instagram {
-    background-color: #833AB4;
+    background: linear-gradient(135deg, #405DE6, #833AB4, #FD1D1D, #FCAF45);
 }
+
 
 /* Hover effet */
 .social-links a:hover {
@@ -223,4 +224,5 @@ main {
         margin: 0 auto;
     }
 }
+
 

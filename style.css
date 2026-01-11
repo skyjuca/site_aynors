@@ -112,6 +112,10 @@ main {
     background-color: #1908A8;
 }
 
+.instagram {
+    background-color: #833AB4;
+}
+
 /* Hover effet */
 .social-links a:hover {
     transform: scale(1.1);
@@ -219,3 +223,4 @@ main {
         margin: 0 auto;
     }
 }
+
